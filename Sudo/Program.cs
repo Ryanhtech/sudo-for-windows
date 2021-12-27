@@ -17,7 +17,7 @@ namespace Sudo
 
             if (Arguments.Length == 0)
             {
-                Console.WriteLine("usage: " + AssemblyName + " <arguments>");
+                Console.WriteLine("usage: " + AssemblyName + " command <arguments>");
                 return 0;
             }
 
