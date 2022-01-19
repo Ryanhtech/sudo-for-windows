@@ -51,7 +51,7 @@ namespace Sudo
 
             if (result == "NoPrivileges")
             {
-                Console.WriteLine(AssemblyName + ": Couldn't run program because access is denied or the file doesn't exists.");
+                Console.WriteLine(AssemblyName + ": Couldn't run program because access is denied or the file doesn't exist.");
                 return 1;
             }
 
