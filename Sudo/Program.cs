@@ -27,7 +27,6 @@ namespace Sudo
             {
                 if (i > 0)
                 {
-                    // If we skipped the command
                     ArgumentsToPassString += Arguments[i];
                 }
             }
@@ -51,7 +50,7 @@ namespace Sudo
 
             if (result == "NoPrivileges")
             {
-                Console.WriteLine(AssemblyName + ": Couldn't run program because access is denied or the file doesn't exists.");
+                Console.WriteLine(AssemblyName + ": Couldn't run program because access is denied or the file doesn't exist.");
                 return 1;
             }
 
